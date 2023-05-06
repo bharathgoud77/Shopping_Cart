@@ -1,7 +1,7 @@
 if(!localStorage.getItem("currentuser")){
   alert("you need to signup or login first to access products");
    setTimeout(()=>{
-    window.location.href  ="index.html";
+    window.location.href  ="./index.html";
    },1000);
 }
 

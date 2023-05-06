@@ -1,7 +1,7 @@
 if(!localStorage.getItem("currentuser")){
   alert("you need to signup or login first to access products");
    setTimeout(()=>{
-    window.location.href  ="../index.html";
+    window.location.href  ="index.html";
    },1000);
 }
 
@@ -85,15 +85,6 @@ function ratingstars(rating) {
   return str;
 
 }
-
-// function returnsizes(sizes) {
-//  let str = "";
-//  for(let size of sizes) {
-//     str+= size + " ";
-//  }
-
-//  return str.trim();
-// }
 
 filters.forEach((filter) => {
 
